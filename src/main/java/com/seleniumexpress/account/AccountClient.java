@@ -24,6 +24,7 @@ public class AccountClient {
 	
 	  public String GetAccountName() 
 	  { 
+		  System.out.println("Yes now jdk");
 		  return rest.getForObject(UrlString, String.class); 
 		  }
 	  

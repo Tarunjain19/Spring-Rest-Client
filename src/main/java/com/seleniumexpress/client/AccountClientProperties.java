@@ -10,6 +10,9 @@ public class AccountClientProperties {
 	private long readTimeout;
 	private long connectTimeout;
 	private String AppUrl;
+	
+	private String Gittesting;
+	
 	public long getReadTimeout() {
 		return readTimeout;
 	}
@@ -27,6 +30,12 @@ public class AccountClientProperties {
 	}
 	public void setAppUrl(String appUrl) {
 		AppUrl = appUrl;
+	}
+	public String getGittesting() {
+		return Gittesting;
+	}
+	public void setGittesting(String gittesting) {
+		Gittesting = gittesting;
 	}
 	
 }
