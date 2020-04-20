@@ -56,23 +56,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
-
-				<groupId>org.apache.maven.plugins</groupId>
-
-				<artifactId>maven-compiler-plugin</artifactId>
-                 <version>2.4</version>
-				<configuration>
-
-					<verbose>true</verbose>
-
-					<fork>true</fork>
-
-					<executable>${JAVA_HOME}/bin/javac</executable>
-
-				</configuration>
-
-			</plugin>
+			
 		</plugins>
 	</build>
 
